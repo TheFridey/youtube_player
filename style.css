@@ -1,0 +1,575 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+* {
+  color: black;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 12.5px;
+}
+
+header, div article, article, div section, section, div aside, aside, div footer, footer {
+  display: block;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+}
+
+div header {
+  background-color: #fff;
+  width: 100%;
+  height: 49px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #eaeaea;
+  z-index: 1;
+}
+
+table {
+  display: block;
+  margin-right: 9px;
+  margin-top: -24px;
+  position: relative;
+  top: 0px;
+  right: 6px;
+  outline: 0;
+  border: none;
+}
+
+ul {
+  display: inline-block;
+}
+
+table:hover td {
+  background-color: black;
+}
+
+td {
+  width: 11px;
+  height: 0.01px;
+  background-color: #d2d2d2;
+  display: block;
+}
+
+#tube {
+  width: 72px;
+  height: 34px;
+  padding-right: 82px;
+  margin-top: -5px;
+  margin-left: 3px;
+  position: relative;
+}
+
+#tube2 {
+  width: 72px;
+  height: 34px;
+  padding-left: 30px;
+  position: relative;
+  top: 12px;
+}
+
+header input:first-of-type {
+  padding-left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 643px;
+  height: 26px;
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  border-radius: 2px;
+  box-shadow: 0 2px 3px 2px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  outline: 0;
+  border: 0;
+}
+
+
+input:hover {
+  box-shadow: 1px 2px 2px 4px rgba(0,0,0,0.16), 1px 1px 1px 2px rgba(0,0,0,0.08);
+}
+
+input:focus {
+  border: 0.5px solid #e4e4e4;
+}
+
+.search {
+  background-image: url("images/glass.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 69px;
+  height: 100%;
+  padding-bottom: 1.4px;
+  padding-top: 24px;
+  background-color: #fafafa;
+  position: relative;
+  top: -6px;
+  left: 583px;
+  border-radius: 2px;
+  border: 0;
+  border: 0.5px solid #eaeaea;
+  z-index: 1;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 3px 3px rgba(0,0,0,0.08);
+}
+
+.header-buttons {
+  padding: 5px;
+  border: 0;
+  color: #545454;
+  border-radius: 2px;
+  border: 1px solid #e4e4e4;
+}
+
+.header-buttons:hover {
+  color: black;
+}
+
+#upload {
+  background-color: #fafafa;
+  position: relative;
+  top: -10px;
+  left: 750px;
+}
+
+#sign-in {
+  background-color: #fafafa;
+  position: relative;
+  top: -10px;
+  left: 780px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+
+div article {
+  background-color: transparent;
+  display: block;
+  padding: 50px;
+  width: 640px;
+  position: relative;
+  margin-left: 49px;
+  top: 2px;
+  border: 0;
+  outline: none;
+}
+
+div section {
+  background-color: #fff;
+  padding: 15px;
+  padding-top: 0;
+  padding-left: 15px;
+  margin-top: 7px;
+  height: 120px;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+section p:first-of-type {
+    font-size: 19.5px;
+    float: left;
+    margin-bottom: 12px;
+}
+
+section p:last-of-type{
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+section img {
+  height: 48px;
+  width: 48px;
+  float: left;
+  margin-right: 10px;
+}
+
+section a {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+section a:hover {
+  color: #0066cc;
+}
+
+div aside {
+  background-color: #fff;
+  float: right;
+  height: 1150px;
+  width: 415px;
+  margin-right: 80px;
+  padding-right: 20px;
+  clear: both;
+  margin-top: 52px;
+}
+
+aside li strong {
+  position: relative;
+  top: -3px;
+  right: 25px;
+}
+
+aside ol {
+  position: relative;
+  top: -10px;
+}
+
+#auto {
+  width: 128px;
+  height: 28px;
+  position: relative;
+  top: 5px;
+  left: 192px;
+}
+
+#subscribe {
+  background-color: #e62e00;
+  color: #fff;
+  border-radius: 2px;
+  border: 0;
+  border: 1px solid #eaeaea;
+  width: 80px;
+  padding: 2px;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+#subscribe:hover {
+  background-color: #b32400
+}
+
+#number {
+  background-color: transparent;
+  color: #545454;
+  border: 0;
+  padding: 2px;
+  border: 1px solid #eaeaea;
+  cursor: default;
+  margin-left: -2px;
+}
+
+.thumb {
+  height: 82px;
+  width: 140px;
+  float: left;
+  margin-left: 14px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.thumbs {
+  height: 82px;
+  width: 140px;
+  float: left;
+  margin-left: -25px;
+  margin-right: 10px;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.titles {
+  margin: 0;
+  font-size: 13px;
+}
+
+.titles:hover {
+  color: #0066cc;
+}
+
+.author, .views {
+  margin: 0;
+  float: left;
+  color: #767676;
+}
+
+aside div {
+  margin-top: -11px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 14px;
+  border: 0;
+  outline: none;
+}
+
+aside ol + div {
+  border-bottom: 1px solid #e2e2e2;
+  margin-left: 18px;
+}
+
+#first {
+  position: relative;
+  top: 0;
+  right: 18px;
+}
+
+#bottom {
+  width: 642px;
+  margin-top: -8px;
+  margin-left: -1px;
+  outline: none;
+  border: 0;
+}
+
+#desc {
+  background-color: #fff;
+  margin-top: 8px;
+  height: 130px;
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+#desc p:last-of-type {
+  text-align: center;
+  margin-top: -10px;
+  color: #767676;
+}
+
+#desc p:last-of-type:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#desc img {
+  width: 620px;
+  position: relative;
+  right: 0px;
+  z-index: 1;
+}
+
+.box {
+  height: 300px;
+  background-color: #fff;
+  width: 625px;
+  margin-left: 99px;
+  margin-top: -35px;
+  padding-left: 15px;
+  padding-top: 2px;
+}
+
+.box h5 {
+  margin-top: 8px;
+}
+
+.box h5 strong {
+    color: #767676;
+}
+
+.box img {
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+
+.box img:last-of-type {
+  width: 620px;
+  position: relative;
+  top: -60px;
+  right: 14px;
+}
+
+.box form input {
+  float: right;
+  position: relative;
+  top: -66px;
+  right: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  line-height: 80px;
+  width: 500px;
+  border-radius: 7.5%;
+  border: 0;
+  outline: none;
+  border: 2px solid #e4e4e4;
+}
+
+#top {
+  margin: 0;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid #e2e2e2;
+  position: relative;
+  top: -50px;
+  left: 20px;
+}
+
+#sidebottom {
+  width: 435px;
+  text-align: center;
+  position: static;
+  border-top: 1px solid #e2e2e2;
+  background-color: #fff;
+  padding-top: 1px;
+  margin-top: -10px;
+  margin-bottom: 300px;
+}
+
+#sidebottom p {
+  color: #767676;
+}
+
+#sidebottom p:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.details {
+  display: inline;
+  padding-right: 120px;
+}
+
+#white {
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.foot-buttons {
+  border: 0;
+  padding: 5px;
+  margin-left: 40px;
+  border-radius: 2px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 1px 1px 4px #eaeaea;
+  color: #545454;
+  display: inline-block;
+  position: relative;
+}
+
+.comments {
+  height: 240px;
+  background-color: #fff;
+  width: 640px;
+  position: relative;
+  left: 99px;
+}
+
+#last-line {
+  width: 620px;
+  position: relative;
+  top: -80px;
+  left: 10px;
+}
+
+#show {
+  text-align: center;
+  position: relative;
+  top: -90px;
+  color: #767676;
+}
+
+#show:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.comments ul {
+  margin: 0;
+  position: relative;
+  top: -70px;
+  right: 80px;
+}
+
+.commthumb {
+  width: 64px;
+  height: 64px;
+  float: left;
+  display: block;
+  padding-left: 80px;
+  margin-right: 10px;
+  margin-top: 0;
+}
+
+.body {
+  display: block;
+  float: left;
+  margin-top: 15px;
+  position: relative;
+  right: 62px;
+}
+
+.body2 {
+  position: relative;
+}
+
+li .user {
+  display: inline-block;
+  margin: 0;
+  color: #0066cc;
+  cursor: pointer;
+  float: left;
+}
+
+a .user:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+.foot-buttons:hover {
+  color: black;
+}
+
+footer ol {
+  display: inline-block;
+  margin-top: -10px;
+}
+
+footer ol li {
+  padding-left: 12px;
+  padding-right: 6px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+footer ol li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0066cc
+}
+
+footer ul li {
+  padding-left: 20px;
+  padding-right: 12px;
+  font-weight: bold;
+  color: #767676;
+  font-size: 11px;
+}
+
+footer ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0066cc
+}
+
+footer ul {
+  display: block;
+  margin: 0;
+}
+
+#line {
+  width: 95%;
+  margin-left: 25px;
+}
+
+div footer {
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  top: 1600px;
+  right: 0;
+  left: 0;
+  height: 140px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
